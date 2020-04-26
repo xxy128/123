@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>护工列表主页</title>
+    <style type="text/css">
+        body{
+    margin:0;
+}
+header {
+    position: fixed;
+    display: flex;
+    z-index: 2;
+    background-color: #5fc0cd;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.head {
+    border-radius: 7px;
+    display:inline-block;
+    float:left;
+}
+.head01 {
+    border-radius: 10px;
+    display:inline-block;
+    
+}
+.head02 {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+    color: #5fc0cd;
+    margin-left:-10px;
+}
+header div div {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+   line-height:45px;
+    text-align:center;
+    color: white;
+    font-size: 25px;
+    background-color: #55a8b3;
+    border: none;
+}
+.head03 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+form {
+    z-index: 2;
+    position: fixed;
+    top:60px;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+}
+select {
+    float: left;
+    font-size: 25px;
+    color: #A0ABAB;
+    width: 33%;
+    height: 80px;
+    border: 0.2px solid #EDF3F3;
+    border-bottom: 1px solid #A0ABAB;
+    padding-left: 10%;
+}
+.se {
+    width: 33%;
+    border-left: none;
+}
+.sel {
+    width: 34%;
+    border-right: none;
+}
+main {
+    padding-top:150px;
+}
+
+.box {
+    height: 150px;
+    font-size: 20px;
+    border-bottom: 1px solid #A0ABAB;
+    padding-top:10px;
+}
+.boximg{
+    padding-left:10px;
+    
+    padding-top:5px;
+}
+    .box > div {
+        position: relative;
+        width: 100%;
+        height: 33%;
+    }
+.box01-01  {
+    
+    color: #A0ABAB;
+}
+.box02 {
+    height: 33%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height:30px;
+}
+.box02-01 {    
+    padding-left: 20px;
+}
+.box02-02 {
+    color: red;
+    margin-right:20px;
+}
+.box03-01 {
+
+    color: #A0ABAB;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="head01"> 找雇工</div>
+            <div class="head02">找护工</div>
+        </div>
+        <div class="head03">
+            <img src="03.png" />
+        </div>      
+    </header>
+    <div class="body">
+        <form>
+            <select class="se">
+                <option value="所在地">所在地</option>
+                <option value="答复">答复</option>
+                <option value="发送">发送</option>
+            </select>
+            <select>
+                <option value="食宿">食宿</option>
+                <option value="包吃">包吃</option>
+                <option value="包住">包住</option>
+            </select>
+            <select class="sel">
+                <option value="病人情况">病人情况</option>
+                <option value="健康">健康</option>
+                <option value="良好">良好</option>
+            </select>
+        </form>
+    </div>
+    
+    <main>
+
+        <div class="box">
+            <div class="box01">
+                <span class="boximg">
+                    <img src="01.png" />
+                </span>
+                <span class="box01-01">服务日期</span>
+            </div>
+            <div class="box02">
+                <span class="box02-01">2015-7-5至2015-07-12</span>
+                <span class="box02-02">
+                    25元/小时
+                    <span style="color: #5fc0cd">></span>
+                </span>
+
+            </div>
+            <div class="box03">
+                <span class="boximg">
+                    <img src="02.png" />
+                </span>
+                <span class="box03-01">北京·通州·果园</span>
+            </div>
+
+
+        </div>
+        <div class="box">
+            <div class="box01">
+                <span class="boximg">
+                    <img src="01.png" />
+                </span>
+                <span class="box01-01">服务日期</span>
+            </div>
+            <div class="box02">
+                <span class="box02-01">2015-7-5至2015-07-12</span>
+                <span class="box02-02">
+                    25元/小时
+                    <span style="color: #5fc0cd">></span>
+                </span>
+
+            </div>
+            <div class="box03">
+                <span class="boximg">
+                    <img src="02.png" />
+                </span>
+                <span class="box03-01">北京·通州·果园</span>
+            </div>
+
+
+        </div>
+        <div class="box">
+            <div class="box01">
+                <span class="boximg">
+                    <img src="01.png" />
+                </span>
+                <span class="box01-01">服务日期</span>
+            </div>
+            <div class="box02">
+                <span class="box02-01">2015-7-5至2015-07-12</span>
+                <span class="box02-02">
+                    25元/小时
+                    <span style="color: #5fc0cd">></span>
+                </span>
+
+            </div>
+            <div class="box03">
+                <span class="boximg">
+                    <img src="02.png" />
+                </span>
+                <span class="box03-01">北京·通州·果园</span>
+            </div>
+
+
+        </div>
+        <div class="box">
+            <div class="box01">
+                <span class="boximg">
+                    <img src="01.png" />
+                </span>
+                <span class="box01-01">服务日期</span>
+            </div>
+            <div class="box02">
+                <span class="box02-01">2015-7-5至2015-07-12</span>
+                <span class="box02-02">
+                    25元/小时
+                    <span style="color: #5fc0cd">></span>
+                </span>
+
+            </div>
+            <div class="box03">
+                <span class="boximg">
+                    <img src="02.png" />
+                </span>
+                <span class="box03-01">北京·通州·果园</span>
+            </div>
+
+
+        </div>
+        <div class="box">
+            <div class="box01">
+                <span class="boximg">
+                    <img src="01.png" />
+                </span>
+                <span class="box01-01">服务日期</span>
+            </div>
+            <div class="box02">
+                <span class="box02-01">2015-7-5至2015-07-12</span>
+                <span class="box02-02">
+                    25元/小时
+                    <span style="color: #5fc0cd">></span>
+                </span>
+
+            </div>
+            <div class="box03">
+                <span class="boximg">
+                    <img src="02.png" />
+                </span>
+                <span class="box03-01">北京·通州·果园</span>
+            </div>
+
+
+        </div>
+        <div class="box">
+            <div class="box01">
+                <span class="boximg">
+                    <img src="01.png" />
+                </span>
+                <span class="box01-01">服务日期</span>
+            </div>
+            <div class="box02">
+                <span class="box02-01">2015-7-5至2015-07-12</span>
+                <span class="box02-02">
+                    25元/小时
+                    <span style="color: #5fc0cd">></span>
+                </span>
+
+            </div>
+            <div class="box03">
+                <span class="boximg">
+                    <img src="02.png" />
+                </span>
+                <span class="box03-01">北京·通州·果园</span>
+            </div>
+
+
+        </div>
+        <div class="box">
+            <div class="box01">
+                <span class="boximg">
+                    <img src="01.png" />
+                </span>
+                <span class="box01-01">服务日期</span>
+            </div>
+            <div class="box02">
+                <span class="box02-01">2015-7-5至2015-07-12</span>
+                <span class="box02-02">
+                    25元/小时
+                    <span style="color: #5fc0cd">></span>
+                </span>
+
+            </div>
+            <div class="box03">
+                <span class="boximg">
+                    <img src="02.png" />
+                </span>
+                <span class="box03-01">北京·通州·果园</span>
+            </div>
+
+
+        </div>
+        <div class="box">
+            <div class="box01">
+                <span class="boximg">
+                    <img src="01.png" />
+                </span>
+                <span class="box01-01">服务日期</span>
+            </div>
+            <div class="box02">
+                <span class="box02-01">2015-7-5至2015-07-12</span>
+                <span class="box02-02">
+                    25元/小时
+                    <span style="color: #5fc0cd">></span>
+                </span>
+
+            </div>
+            <div class="box03">
+                <span class="boximg">
+                    <img src="02.png" />
+                </span>
+                <span class="box03-01">北京·通州·果园</span>
+            </div>
+
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="foot">
+        </div>
+    </footer>
+</body>
+</html>
