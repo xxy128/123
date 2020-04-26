@@ -1,0 +1,106 @@
+﻿body {
+    background-color: aliceblue;
+    margin: 0;
+}
+.head {
+    height: 50px;
+    background-color: #89C9CD;
+    margin:0;
+}
+.head01 {
+    text-indent: 0.5em;
+    margin: 0;
+    font-size: 20px;
+    float: left;
+    width: 47%;
+    height: 100%;
+    padding-top: 10px;
+}
+.head02 {
+    margin: 0;
+    font-size: 25px;
+    float: left;
+    width: 47%;
+    height: 100%;
+    padding-top: 8px;
+}
+.head03 {
+    margin: 0;
+    font-size: 20px;
+    float: left;
+    width: 6%;
+    height: 100%;
+    padding-top:10px;
+}
+
+
+.body01 {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    background-color: white;
+}
+    .body01 input {
+        width: 91%;
+        height: 100%;
+        border: none;
+        font-size: 25px;
+        outline: none;
+    }
+.body01-01 {
+    float: left;
+    height: 105%;
+    width: 8%;
+    text-align: center;
+    padding-top: 4px;
+}
+.body01-02 {
+    float: left;
+    width: 1%;
+    font-size: 30px;
+}
+.body02 {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    background-color: white;
+}
+.body02-02 {
+    float: left;
+    width: 1%;
+    font-size: 30px;
+    
+}
+.body02 input {
+    width: 91%;
+    height: 100%;
+    border: none;
+    font-size: 25px;
+    outline: none;
+}
+
+.body02-01 {
+    float: left;
+    height: 105%;
+    width: 8%;
+    text-align: center;
+    padding-top:4px;
+}
+.body03 {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    background-color: #89C9CD;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.body04{
+    float:right;
+    margin:10px;
+}
